@@ -1,0 +1,35 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .copyright-text {
+    color: $color-dark-grey-1;
+    font-size: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  // Tablet/iPad Screens
+  @media only screen and (min-width : 768px) {
+    height: 300px;
+
+    p {
+      margin-bottom: 8px;
+    }
+  }
+
+  // Computer Screens
+  @media only screen and (min-width : 1200px) {
+    a.nav-item {
+      padding-right: 5%;
+    }
+  }
+
+
+}

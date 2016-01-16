@@ -1,0 +1,35 @@
+.header {
+
+  nav {
+    border-radius: 0;
+    height: 60px;
+
+  }
+
+  .bg-header {
+    color: $color-light-grey-1;
+    background-color: $color-black-1;
+  }
+
+  nav .nav a:last-of-type {
+    padding-right: 0px;
+  }
+
+  // Tablet/iPad Screens
+  @media only screen and (min-width : 768px) {
+    i.fa {
+      font-size: 2em;
+    }
+    a.nav-item {
+      padding-right: 5%;
+    }
+  }
+
+  // Computer Screens
+  @media only screen and (min-width : 1200px) {
+    a.nav-item {
+      padding-right: 9%;
+    }
+  }
+
+}
