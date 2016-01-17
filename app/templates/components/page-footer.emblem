@@ -4,25 +4,25 @@
       .col-xs-6.col-sm-2.col-md-3.col-lg-3
         ul
           li
-            a href='#' Home
+            link-to "index" | Home
           li
-            a href='#' Programming
+            link-to "programming" | Programming
           li
-            a href='#' Music
+            link-to "music" | Music
           li
-            a href='#' Movies
+            link-to "movies" | Movies
           li
-            a href='#' Writing
+            link-to "writing" | Writing
       .col-xs-6.col-sm-2.col-md-3.col-lg-3
         ul
           li
-            a href='#' Cooking
+            link-to "cooking" | Cooking
           li
-            a href='#' Growing
+            link-to "growing" | Growing
           li
-            a href='#' Pets
+            link-to "pets" | Pets
           li
-            a href='#' Contact
+            link-to "contact" | Contact
       .col-xs-12.col-sm-8.col-md-6.col-lg-6
         p All code on this website follows the standard MIT License unless
           otherwise specified.

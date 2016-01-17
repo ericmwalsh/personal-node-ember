@@ -21,6 +21,10 @@ a {
   color: $color-light-grey-1;
 }
 
+a.active {
+  color: darken($color-light-grey-1, 35%);
+}
+
 .bg-nav {
   // color:
   background-color: $color-black-1;

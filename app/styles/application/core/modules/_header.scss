@@ -13,11 +13,11 @@
 
   nav .nav {
 
-    a {
+    .nav-item {
       padding-right: 1%;
     }
 
-    a:last-of-type {
+    .nav-item:last-of-type {
       padding-right: 0px;
     }
   }
@@ -27,21 +27,21 @@
     i.fa {
       font-size: 2em;
     }
-    nav .nav a {
+    nav .nav .nav-item {
       padding-right: 5%;
     }
   }
 
   // Laptop Screens
   @media only screen and (min-width : 1200px) {
-    nav .nav a {
+    nav .nav .nav-item {
       padding-right: 8%;
     }
   }
 
   // Computer Screens
   @media only screen and (min-width : 1920px) {
-    nav .nav a {
+    nav .nav .nav-item {
       padding-right: 9%;
     }
   }

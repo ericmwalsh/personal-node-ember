@@ -1,21 +1,21 @@
 .header
   nav.navbar.navbar-dark.bg-nav
     .nav.navbar-nav
-      a.nav-item.nav-link.active href='#'
+      .nav-item.nav-link= link-to "index"
         i.fa.fa-home / Home
-      a.nav-item.nav-link href='#'
+      .nav-item.nav-link= link-to "programming"
         i.fa.fa-laptop / Programming
-      a.nav-item.nav-link href='#'
+      .nav-item.nav-link= link-to "music"
         i.fa.fa-music / Music
-      a.nav-item.nav-link href='#'
+      .nav-item.nav-link= link-to "movies"
         i.fa.fa-film / Movies
-      a.nav-item.nav-link href='#'
+      .nav-item.nav-link= link-to "writing"
         i.fa.fa-pencil / Writing
-      a.nav-item.nav-link href='#'
+      .nav-item.nav-link= link-to "cooking"
         i.fa.fa-cutlery / Cooking
-      a.nav-item.nav-link href='#'
+      .nav-item.nav-link= link-to "growing"
         i.fa.fa-pagelines / Growing
-      a.nav-item.nav-link href='#'
+      .nav-item.nav-link= link-to "pets"
         i.fa.fa-paw / Pets
-      a.nav-item.nav-link href='#'
+      .nav-item.nav-link= link-to "contact"
         i.fa.fa-envelope-o / Contact
