@@ -1,1 +1,11 @@
-p hey team you good
+.contact.container
+    .row.p-y-2
+      .col-xs-12.col-sm-12.col-md-12.col-lg-12
+        .text-xs-center
+          h4.contact-header
+            | Contact your 
+    .row
+      .col-xs-12.col-sm-12.col-md-4.col-lg-4
+        img.profile-image src="https://www.queriedaway.com/wp-content/uploads/2014/09/Profiles-235x235.jpg"
+      .col-xs-12.col-sm-12.col-md-8.col-lg-8
+        p My name is Eric Walsh and I am a 23

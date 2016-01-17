@@ -2,6 +2,7 @@
 *  Vendor (Extraneous)
 */
 @import "bower_components/font-awesome/scss/font-awesome";
+@import "bower_components/bootstrap/scss/variables";
 
 /*!
 *  Core
@@ -18,3 +19,9 @@
 */
 @import "application/core/modules/header";
 @import "application/core/modules/footer";
+
+/*!
+*  Pages
+*/
+@import "application/pages/home";
+@import "application/pages/contact";

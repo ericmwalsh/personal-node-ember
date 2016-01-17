@@ -31,8 +31,8 @@
           | This site was created using a microservices oriented architecture.
             The frontend is an Ember application being served via a Node.JS app
             hosted on Heroku.  APIs are built on Rails-API, Node.JS w/ Express,
-            and GO.  More information on the architecture is located
-            {{#link-to "index" }}here{{/link-to}}.
+            and Go.  More information on the architecture is located
+            {{#link-to "programming.site-architecture" }}here{{/link-to}}.
     .row
       hr
       p.text-xs-center.copyright-text &copy; 2016 Eric Matthew Walsh (Personal Website)

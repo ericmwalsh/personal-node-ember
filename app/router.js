@@ -25,7 +25,7 @@ Router.map(function() {
     this.route('nigel');
   });
   this.route('programming', function() {
-    
+    this.route('site-architecture');
   });
   this.route('writing', function() {
     
