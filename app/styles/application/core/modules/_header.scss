@@ -11,8 +11,15 @@
     background-color: $color-black-1;
   }
 
-  nav .nav a:last-of-type {
-    padding-right: 0px;
+  nav .nav {
+
+    a {
+      padding-right: 1%;
+    }
+
+    a:last-of-type {
+      padding-right: 0px;
+    }
   }
 
   // Tablet/iPad Screens
@@ -20,14 +27,21 @@
     i.fa {
       font-size: 2em;
     }
-    a.nav-item {
+    nav .nav a {
       padding-right: 5%;
     }
   }
 
-  // Computer Screens
+  // Laptop Screens
   @media only screen and (min-width : 1200px) {
-    a.nav-item {
+    nav .nav a {
+      padding-right: 8%;
+    }
+  }
+
+  // Computer Screens
+  @media only screen and (min-width : 1920px) {
+    nav .nav a {
       padding-right: 9%;
     }
   }

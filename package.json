@@ -41,6 +41,6 @@
     "ember-export-application-global": "^1.0.4"
   },
   "dependencies": {
-    "bower": "^1.6.5"
+
   }
 }
