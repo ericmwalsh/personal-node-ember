@@ -11,8 +11,19 @@
     background-color: $color-black-1;
   }
 
-  nav .nav a:last-of-type {
-    padding-right: 0px;
+  nav .nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    a {
+      padding-right: 3%;
+    }
+
+    a:last-of-type {
+      padding-right: 0px;
+    }
   }
 
   // Tablet/iPad Screens
@@ -20,15 +31,22 @@
     i.fa {
       font-size: 2em;
     }
-    a.nav-item {
-      padding-right: 5%;
+    nav .nav a {
+      padding-right: 8%;
+    }
+  }
+
+  // Laptop Screens
+  @media only screen and (min-width : 1200px) {
+    nav .nav a {
+      padding-right: 9%;
     }
   }
 
   // Computer Screens
-  @media only screen and (min-width : 1200px) {
-    a.nav-item {
-      padding-right: 9%;
+  @media only screen and (min-width : 1920px) {
+    nav .nav a {
+      // padding-right: 9%;
     }
   }
 

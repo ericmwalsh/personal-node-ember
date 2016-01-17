@@ -1,21 +1,23 @@
-.header
-  nav.navbar.navbar-dark.bg-nav
-    .nav.navbar-nav
-      a.nav-item.nav-link.active href='#'
-        i.fa.fa-home / Home
-      a.nav-item.nav-link href='#'
-        i.fa.fa-laptop / Programming
-      a.nav-item.nav-link href='#'
-        i.fa.fa-music / Music
-      a.nav-item.nav-link href='#'
-        i.fa.fa-film / Movies
-      a.nav-item.nav-link href='#'
-        i.fa.fa-pencil / Writing
-      a.nav-item.nav-link href='#'
-        i.fa.fa-cutlery / Cooking
-      a.nav-item.nav-link href='#'
-        i.fa.fa-pagelines / Growing
-      a.nav-item.nav-link href='#'
-        i.fa.fa-paw / Pets
-      a.nav-item.nav-link href='#'
-        i.fa.fa-envelope-o / Contact
+.header.bg-nav
+  .container
+    .row
+      nav.navbar.navbar-dark
+        .nav
+          a.nav-item.nav-link.active href='#'
+            i.fa.fa-home.fa-2x / Home
+          a.nav-item.nav-link href='#'
+            i.fa.fa-laptop.fa-2x / Programming
+          a.nav-item.nav-link href='#'
+            i.fa.fa-music.fa-2x / Music
+          a.nav-item.nav-link href='#'
+            i.fa.fa-film.fa-2x / Movies
+          a.nav-item.nav-link href='#'
+            i.fa.fa-pencil.fa-2x / Writing
+          a.nav-item.nav-link href='#'
+            i.fa.fa-cutlery.fa-2x / Cooking
+          a.nav-item.nav-link href='#'
+            i.fa.fa-pagelines.fa-2x / Growing
+          a.nav-item.nav-link href='#'
+            i.fa.fa-paw.fa-2x / Pets
+          a.nav-item.nav-link href='#'
+            i.fa.fa-envelope-o.fa-2x / Contact
