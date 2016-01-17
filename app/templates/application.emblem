@@ -1,0 +1,5 @@
+#content
+  = page-header
+  .container
+    = outlet
+  = page-footer

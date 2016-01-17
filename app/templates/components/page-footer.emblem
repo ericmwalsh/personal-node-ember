@@ -1,0 +1,38 @@
+.footer.bg-nav
+  .container
+    .row
+      .col-xs-6.col-sm-2.col-md-3.col-lg-3
+        ul
+          li
+            a href='#' Home
+          li
+            a href='#' Programming
+          li
+            a href='#' Music
+          li
+            a href='#' Movies
+          li
+            a href='#' Writing
+      .col-xs-6.col-sm-2.col-md-3.col-lg-3
+        ul
+          li
+            a href='#' Cooking
+          li
+            a href='#' Growing
+          li
+            a href='#' Pets
+          li
+            a href='#' Contact
+      .col-xs-12.col-sm-8.col-md-6.col-lg-6
+        p All code on this website follows the standard MIT License unless
+          otherwise specified.
+        br
+        p
+          | This site was created using a microservices oriented architecture.
+            The frontend is an Ember application being served via a Node.JS app
+            hosted on Heroku.  APIs are built on Rails-API, Node.JS w/ Express,
+            and GO.  More information on the architecture is located
+            {{#link-to "index" }}here{{/link-to}}.
+    .row
+      hr
+      p.text-xs-center.copyright-text &copy; 2016 Eric Matthew Walsh (Personal Website)

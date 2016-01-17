@@ -1,0 +1,21 @@
+.header
+  nav.navbar.navbar-dark.bg-nav
+    .nav.navbar-nav
+      a.nav-item.nav-link.active href='#'
+        i.fa.fa-home / Home
+      a.nav-item.nav-link href='#'
+        i.fa.fa-laptop / Programming
+      a.nav-item.nav-link href='#'
+        i.fa.fa-music / Music
+      a.nav-item.nav-link href='#'
+        i.fa.fa-film / Movies
+      a.nav-item.nav-link href='#'
+        i.fa.fa-pencil / Writing
+      a.nav-item.nav-link href='#'
+        i.fa.fa-cutlery / Cooking
+      a.nav-item.nav-link href='#'
+        i.fa.fa-pagelines / Growing
+      a.nav-item.nav-link href='#'
+        i.fa.fa-paw / Pets
+      a.nav-item.nav-link href='#'
+        i.fa.fa-envelope-o / Contact

@@ -1,0 +1,27 @@
+// Global CSS Rules for the site //
+
+p {
+  font-size: 14px;
+  color: $color-light-grey-2;
+}
+
+hr {
+  border-top: 1px solid $color-light-grey-1;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+a {
+  color: $color-light-grey-1;
+}
+
+.bg-nav {
+  // color:
+  background-color: $color-black-1;
+}
