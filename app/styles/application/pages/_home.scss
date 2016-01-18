@@ -1,20 +1,15 @@
 // CSS for the home page
 .home {
 
-  h4.home-header {
-    font-size: 50px;
-    font-family: $font-family-serif;
+  h1.home-header {
 
     em {
       font-weight: $font-weight-6;
     }
   }
 
-  p {
-    color: $color-dark-grey-1;
-  }
-
   .profile-image {
     width: 100%;
+    padding-bottom: 20px;
   }
 }

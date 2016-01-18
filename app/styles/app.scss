@@ -5,6 +5,12 @@
 @import "bower_components/bootstrap/scss/variables";
 
 /*!
+*  Vendor Fonts
+*/
+// Google Fonts 'Open Sans' and 'Roboto'
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto);
+
+/*!
 *  Core
 */
 @import "application/core/variables";
@@ -25,3 +31,4 @@
 */
 @import "application/pages/home";
 @import "application/pages/contact";
+

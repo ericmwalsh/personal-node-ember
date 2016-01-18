@@ -1,11 +1,27 @@
-.contact.container
+.contact.container.text-xs-center
     .row.p-y-2
       .col-xs-12.col-sm-12.col-md-12.col-lg-12
-        .text-xs-center
-          h4.contact-header
-            | Contact your 
+        h1.contact-header
+          | CONTACT
+          hr
     .row
-      .col-xs-12.col-sm-12.col-md-4.col-lg-4
-        img.profile-image src="https://www.queriedaway.com/wp-content/uploads/2014/09/Profiles-235x235.jpg"
-      .col-xs-12.col-sm-12.col-md-8.col-lg-8
-        p My name is Eric Walsh and I am a 23
+      .col-xs-12.col-sm-12.col-md-12.col-lg-12
+        p
+          i.fa.fa-envelope.fa-3x.contact-email
+          .spacer5
+          a.contact-email-link href="mailto:ericmatthewwalsh%40gmail.com" ericmatthewwalsh@gmail.com
+    .spacer30
+    .row
+      .col-xs-12.col-sm-12.col-md-12.col-lg-12
+        p
+          a.contact-github href="https://github.com/ericmwalsh/"
+            %i.fa.fa-github.fa-3x.contact-github-icon
+          a.contact-linkedin href="https://www.linkedin.com/in/eric-walsh-31552250"
+            %i.fa.fa-linkedin.fa-3x.contact-linkedin-icon
+    .spacer10
+    .row
+      .col-xs-12.col-sm-12.col-md-12.col-lg-12
+        p
+          i.fa.fa-globe
+          |  
+          a href="https://www.google.com/maps/place/Culver+City,+CA/@34.0058945,-118.444044,13z/" Culver City, California

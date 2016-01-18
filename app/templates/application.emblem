@@ -1,5 +1,5 @@
 #content
   = page-header
-  .container
+  .body.container
     = outlet
   = page-footer

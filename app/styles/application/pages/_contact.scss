@@ -1,4 +1,37 @@
 // CSS for the contact page
 .contact {
 
+  .contact-email {
+    color: $color-dark-grey-2;
+  }
+
+  .contact-email-link {
+    font-size: $font-size-2;
+  }
+
+  .contact-github-icon {
+    padding-right: 10px;
+  }
+
+  .contact-linkedin-icon {
+    padding-left: 10px;
+  }
+
+  .contact-header {
+    padding-top: 50px;
+    font-family: 'Roboto';
+    font-weight: $font-weight-1;
+    font-size: 70px;
+
+    hr {
+      width: 40%;
+    }
+  }
+
+  p {
+    font-family: 'Open Sans';
+  }
+
+
+
 }

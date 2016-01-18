@@ -8,7 +8,15 @@
 
   .copyright-text {
     color: $color-dark-grey-1;
-    font-size: 10px;
+    font-size: $font-size-3;
+  }
+
+  a {
+    color: $color-light-grey-1;
+  }
+
+  p {
+    color: $color-light-grey-2;
   }
 
   ul {
