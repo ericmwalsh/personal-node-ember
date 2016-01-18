@@ -62,7 +62,7 @@ a {
 }
 
 a.active {
-  color: darken($color-light-grey-1, 35%);
+  color: darken($color-light-grey-1, 35%) !important;
 }
 
 .bg-nav {

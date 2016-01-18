@@ -16,9 +16,11 @@
         p
           a.contact-github href="https://github.com/ericmwalsh/"
             %i.fa.fa-github.fa-3x.contact-github-icon
+          a.contact-linkedin href="http://stackoverflow.com/users/2577822/eric-walsh"
+            %i.fa.fa-stack-overflow.fa-3x.contact-stack-overflow-icon
           a.contact-linkedin href="https://www.linkedin.com/in/eric-walsh-31552250"
             %i.fa.fa-linkedin.fa-3x.contact-linkedin-icon
-    .spacer10
+    .spacer20
     .row
       .col-xs-12.col-sm-12.col-md-12.col-lg-12
         p
