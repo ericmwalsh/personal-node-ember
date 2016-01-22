@@ -1,1 +1,18 @@
-p cool beans
+.pets.container.text-xs-center
+    .row.p-y-2
+      .col-xs-12.col-sm-12.col-md-12.col-lg-12
+        h1.pet-header
+          | PETS
+          .p-b-2
+    .row
+      .col-xs-12.col-sm-12.col-md-12.col-lg-6
+        .pets-jalapeno
+          = link-to "pets.jalapeno"
+            %img.image-jalapeno.p-b-1 src="/assets/images/pages/pets/jalapeno.jpg"
+            %h1.p-b-2 Jalapeño
+        hr.p-b-3.no-desktop
+      .col-xs-12.col-sm-12.col-md-12.col-lg-6
+        .pets-nigel
+          = link-to "pets.nigel"
+            %img.image-nigel.p-b-1 src="/assets/images/pages/pets/nigel.jpg"
+            %h1.p-b-1 Nigel

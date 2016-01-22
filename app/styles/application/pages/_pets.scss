@@ -1,0 +1,77 @@
+// CSS for the Pets pages
+.pets {
+
+  .pet-header {
+    font-family: $roboto;
+    font-size: 70px;
+  }
+
+  .pets-jalapeno {
+    h1 {
+      font-family: $pacifico;
+    }
+
+    .image-jalapeno {
+      width: 260px;
+      height: 210px;
+    }
+
+  }
+
+  .pets-nigel {
+    h1 {
+      font-family: $shadows;
+      font-size: 60px;
+      font-weight: $font-weight-6;
+    }
+
+    .image-nigel {
+      width: 260x;
+      height: 340px;
+    }
+
+  }
+
+  @media only screen and (min-width : 768px) {
+    .pets-jalapeno {
+      .image-jalapeno {
+        width: 500px;
+        height: 400px;
+      }
+
+    }
+
+    .pets-nigel {
+      .image-nigel {
+        width: 400px;
+        height: 475px;
+
+      }
+
+    }
+  }
+
+
+
+  @media only screen and (min-width : 992px) {
+    .pet-header {
+      padding-top: 1.5rem !important;
+    }
+
+    .pets-jalapeno {
+      .image-jalapeno {
+        padding-top: 3rem !important;
+      }
+
+    }
+
+    .pets-nigel {
+      .image-nigel {
+
+      }
+
+    }
+  }
+
+
+}

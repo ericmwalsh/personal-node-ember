@@ -7,8 +7,8 @@
 /*!
 *  Vendor Fonts
 */
-// Google Fonts 'Open Sans' and 'Roboto'
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto);
+// Google Fonts 'Open Sans', 'Roboto', 'Shadows Into Light', 'Pacifico'
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Shadows+Into+Light|Pacifico);
 
 /*!
 *  Core
@@ -31,4 +31,5 @@
 */
 @import "application/pages/home";
 @import "application/pages/contact";
+@import "application/pages/pets";
 

@@ -22,6 +22,7 @@ Router.map(function() {
     
   });
   this.route('pets', function() {
+    this.route('jalapeno');
     this.route('nigel');
   });
   this.route('programming', function() {
