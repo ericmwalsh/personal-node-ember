@@ -7,6 +7,7 @@
   nav {
     border-radius: 0;
     height: 60px;
+    padding: 0px;
 
   }
 
@@ -16,14 +17,29 @@
   }
 
   nav .nav {
+    text-align: justify;
+    min-width: 288px;
+    margin: 8px 16px 8px 16px;
 
     .nav-item {
-      padding-right: 1%;
+      margin-left: 0px;
+      // temporary fix
+      // width: (100%/9);
+      width: 11.8%;
+      vertical-align: top;
     }
 
     .nav-item:last-of-type {
-      padding-right: 0px;
+      width: inherit;
     }
+
+    .stretch {
+      width: 100%;
+      display: inline-block;
+      font-size: 0;
+      line-height: 0;
+    }
+
   }
 
   // Tablet/iPad Screens
@@ -32,21 +48,21 @@
       font-size: 2em;
     }
     nav .nav .nav-item {
-      padding-right: 5%;
+
     }
   }
 
   // Laptop Screens
   @media only screen and (min-width : 1200px) {
     nav .nav .nav-item {
-      padding-right: 8%;
+
     }
   }
 
   // Computer Screens
   @media only screen and (min-width : 1920px) {
     nav .nav .nav-item {
-      padding-right: 9%;
+
     }
   }
 

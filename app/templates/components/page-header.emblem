@@ -19,3 +19,4 @@
         i.fa.fa-paw
       .nav-item.nav-link= link-to "contact"
         i.fa.fa-envelope-o
+      span.stretch
