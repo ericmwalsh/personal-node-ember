@@ -1,0 +1,12 @@
+.login.container.text-xs-center
+  .row.p-y-2
+    .col-xs-12.col-sm-12.col-md-12.col-lg-12
+      form submit="authenticate"
+        %p
+          | Email: 
+          = input value=email type="text"
+        %p
+          | Password: 
+          = input value=password type="password"
+        .spacer10
+        button.btn.btn-large.btn-success type="submit" Submit

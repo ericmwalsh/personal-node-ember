@@ -31,6 +31,10 @@ Router.map(function() {
   this.route('writing', function() {
     
   });
+  this.route('admin', function() {
+
+  });
+  this.route('login');
 });
 
 export default Router;

@@ -42,6 +42,15 @@
 
   }
 
+  .corner-square {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 5px;
+    background: $color-light-grey-1;
+  }
+
   // Tablet/iPad Screens
   @media only screen and (min-width : 768px) {
     i.fa {

@@ -20,3 +20,9 @@
       .nav-item.nav-link= link-to "contact"
         i.fa.fa-envelope-o
       span.stretch
+    if session.isAuthenticated
+      = link-to "admin"
+        .corner-square.admin-panel
+    else
+      = link-to "login"
+        .corner-square.login-panel
