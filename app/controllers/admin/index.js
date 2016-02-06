@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import ENV from 'node-ember/config/environment';
 
 export default Ember.Controller.extend({
   session: Ember.inject.service('session'),
@@ -16,7 +17,7 @@ export default Ember.Controller.extend({
       });
 
       var request = Ember.$.ajax({
-        url:  "http://localhost:3000/admins/sign_out",
+        url:  ENV["adminEndpoint"] + "/sign_out/",
         type: 'DELETE',
         headers: headers
       });

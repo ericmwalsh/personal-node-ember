@@ -3,5 +3,5 @@ import Devise from 'ember-simple-auth/authenticators/devise';
 
 export default Devise.extend({
   resourceName: 'admin',
-  serverTokenEndpoint: ENV["adminEndpoint"],
+  serverTokenEndpoint: ENV["adminEndpoint"] + "/sign_in/",
 });
