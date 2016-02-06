@@ -7,9 +7,15 @@ export default Ember.Controller.extend({
   actions: {
     authenticate: function() {
       let { email, password } = this.getProperties('email', 'password');
-      return this.get('session').authenticate('authenticator:devise', email, password).catch((reason) => {
-        this.set('errorMessage', reason.error);
-      });
+      return this.get('session').authenticate('authenticator:devise', email, password)
+        .then(function(value) {
+          // fulfillment
+        }, function(reason) {
+          // rejection
+        })
+        .catch((reason) => {
+          this.set('errorMessage', reason.error);
+        });
     }
   }
 });

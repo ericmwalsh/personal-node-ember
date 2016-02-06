@@ -23,7 +23,8 @@ module.exports = function(environment) {
   };
 
   ENV['simple-auth'] = {
-    authorizer: 'simple-auth-authorizer:devise'
+    authorizer: 'simple-auth-authorizer:devise',
+    crossOriginWhitelist: ['*']
   };
 
   ENV['simple-auth-devise'] = {
@@ -33,7 +34,7 @@ module.exports = function(environment) {
 
   ENV['ember-simple-auth'] = {
     routeAfterAuthentication: 'index',
-    routeIfAlreadyAuthenticated: 'index'
+    routeIfAlreadyAuthenticated: 'index',
   };
 
   if (environment === 'development') {
