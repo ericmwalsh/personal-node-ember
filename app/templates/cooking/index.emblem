@@ -1,1 +1,15 @@
-= outlet
+.cooking.container.text-xs-center
+    .row.p-y-2
+      .col-xs-12.col-sm-12.col-md-12.col-lg-12
+        h1.cooking-header
+          | Cooking
+          .p-b-2
+    .row
+      each model as |meal|
+        .col-xs-12.col-sm-12.col-md-12.col-lg-6
+          %li = meal.title
+          %li = meal.description
+          %li
+            | $#{meal.cost}
+          %li
+            | #{meal.prepTime} Minutes

@@ -39,6 +39,7 @@ module.exports = function(environment) {
 
   if (environment === 'development') {
     ENV.adminEndpoint = "http://localhost:3000/admins";
+    ENV.mealEndpoint = "http://localhost:3001";
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
@@ -60,6 +61,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     ENV.adminEndpoint = process.env.ADMIN_ENDPOINT;
+    ENV.mealEndpoint = process.env.MEAL_ENDPOINT;
   }
 
   return ENV;
