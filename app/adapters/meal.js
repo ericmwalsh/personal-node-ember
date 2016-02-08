@@ -1,16 +1,9 @@
-import Ember from 'ember';
+import ApplicationAdapter from './application';
 import ENV from 'node-ember/config/environment';
-import DS from 'ember-data';
-import DataAdapterMixin from 'ember-simple-auth/mixins/data-adapter-mixin';
 
-export default DS.JSONAPIAdapter.extend(DataAdapterMixin, {
-  headers: {
-    "Device-Kind": "webzz"
-  },
+export default ApplicationAdapter.extend({
   host: ENV["mealEndpoint"],
   namespace: 'v1',
-  session: Ember.inject.service('session'),
-  authorizer: 'authorizer:devise',
 
 
 });

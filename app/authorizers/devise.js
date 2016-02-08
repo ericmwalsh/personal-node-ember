@@ -13,5 +13,5 @@ export default Devise.extend({
       const authData = `{\"${tokenAttributeName}\":"${userToken}", \"${identificationAttributeName}\":"${userIdentification}"}`;
       block('Authorization', `${authData}`);
     }
-  }
+  },
 });

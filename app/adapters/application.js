@@ -1,12 +1,14 @@
 import DS from 'ember-data';
 import DataAdapterMixin from 'ember-simple-auth/mixins/data-adapter-mixin';
 
-export default DS.JSONAPIAdapter.extend(DataAdapterMixin, {
+const ApplicationAdapter = DS.JSONAPIAdapter.extend(DataAdapterMixin, {
+  session: Ember.inject.service('session'),
   headers: {
     "Device-Kind": "web"
   },
-  session: Ember.inject.service('session'),
   authorizer: 'authorizer:devise',
 
 
 });
+
+export default ApplicationAdapter;
