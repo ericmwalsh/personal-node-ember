@@ -1,2 +1,2 @@
-p every page on progr {{ this }}
+/ p every page on progr {{ this }}
 = outlet

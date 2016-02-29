@@ -1,7 +1,7 @@
 {
   "name": "node-ember",
   "dependencies": {
-    "ember": "2.3.0",
+    "ember": "2.3.1",
     "ember-cli-shims": "0.0.6",
     "ember-cli-test-loader": "0.2.1",
     "ember-data": "2.3.3",
@@ -20,6 +20,6 @@
   },
   "resolutions": {
     "bootstrap": "v4.0.0-alpha.2",
-    "ember": "2.3.0"
+    "ember": "2.3.1"
   }
 }

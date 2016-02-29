@@ -1,1 +1,5 @@
-= outlet
+.spacer30
+if session.isAuthenticated
+  p heyoooo
+else
+  h2.text-xs-center Accessible for logged in Users only.
