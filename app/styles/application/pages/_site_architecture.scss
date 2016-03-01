@@ -1,0 +1,22 @@
+// CSS for the site architecture page
+.site-architecture {
+
+  h1.site-architecture-header,
+  h3 {
+    font-family: $roboto;
+  }
+
+  .goals-header {
+    font-family: $pacifico;
+  }
+
+  .goals-list li:hover {
+    color: $color-dark-grey-2;
+    font-family: $roboto;
+  }
+
+  .goals-header:hover {
+    font-size: 21px;
+  }
+
+}

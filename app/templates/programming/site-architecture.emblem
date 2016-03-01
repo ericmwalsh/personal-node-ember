@@ -1,31 +1,109 @@
-.spacer30
-h1 Overview
-.spacer10
-p This site was created using a microservices oriented architecture. The front end
-  is an Ember application being served via a Node.JS app. There
-  are several APIs that built on Rails-API, Node.JS w/ Express, and GO. All of the
-  apps are currently hosted on Heroku (cheers for the free tier!).
-br
-h3
-  a href="https://github.com/ericmwalsh/personal-node-ember" target="_blank"
-    %i.fa.fa-github.fa-1x.contact-github-icon
-    | Front End Application
-br
-p
-  | The front end application is an 
-  a href="https://github.com/emberjs/ember.js" Ember (v2.3.1)
-  |  app generated using Ember-CLI and being served via Node.JS.  I handle authentication
-    in Ember using the Ember-Simple-Auth library and a Devise Rails server.  For writing
-    HTML and CSS I have chose to use Emblem instead of Handlebars and SCSS in place of CSS.
-    I have also decided to use Bootstrap v4.0.0-alpha.2 because I decided that for
-    my personal site I wanted to practice using the newest version of Bootstrap, as
-    opposed to using Bootstrap v3 which I typically use in the workplace.  In
-    addition to Bootstrap I am also using FontAwesome for all the awesome icons throughout
-    the site.
-br
-p Because I want to keep the GitHub repositories for this application public I have
-  decided to hide all sensitive data via front end authentication as well as store it
-  in servers that require authentication in order to access.  Any sensitive data displayed
-  to the client is retrieved (with the help of a successful user login and authentication
-  token) from an authenticated API (each API talks to a central authentication microservice
-  before determining it's ability to share the specific data with the client).
+.site-architecture
+  .row.p-y-2
+    .col-xs-12.col-sm-12.col-md-12.col-lg-12
+      .text-xs-center
+        h1.site-architecture-header Site Architecture
+  .row
+    .col-xs-12.col-sm-12.col-md-12.col-lg-12
+      p This site was created using a microservices oriented architecture. The front end
+        is an Ember application being served via a Node.JS app. There
+        are several APIs that built on Rails-API, Node.JS w/ Express, and GO. All of the
+        apps are currently hosted on Heroku (cheers for the free tier!).
+      hr
+      .spacer30
+      h3
+        a href="https://github.com/ericmwalsh/personal-node-ember" target="_blank"
+          %i.fa.fa-github.fa-1x.contact-github-icon
+          | Front End Application
+      br
+      p
+        | The front end application is an 
+        a href="https://github.com/emberjs/ember.js" Ember (v2.3.1)
+        |  app generated using Ember-CLI and being served via Node.JS.  I handle authentication
+          in Ember using the Ember-Simple-Auth library and a Devise Rails server.  For writing
+          HTML and CSS I have chose to use Emblem instead of Handlebars and SCSS in place of CSS.
+          I have also decided to use Bootstrap v4.0.0-alpha.2 because I decided that for
+          my personal site I wanted to practice using the newest version of Bootstrap, as
+          opposed to using Bootstrap v3 which I typically use in the workplace.  In
+          addition to Bootstrap I am also using FontAwesome for all the awesome icons throughout
+          the site.
+      br
+      p Because I want to keep the GitHub repositories for this application public I have
+        decided to hide all sensitive data via front end authentication as well as store it
+        in servers that require authentication in order to access.  Any sensitive data displayed
+        to the client is retrieved (with the help of a successful user login and authentication
+        token) from an authenticated API (each API talks to a central authentication microservice
+        before determining it's ability to share the specific data with the client).
+      .spacer10
+      .container
+        .col-xs-12.col-sm-12.col-md-4.col-lg-4
+          h4.goals-header >Development Goals
+        .col-xs-12.col-sm-12.col-md-8.col-lg-8
+          .goals-list
+            ul
+              li
+                p
+                  | Complete the rest of these damn static pages.  Takes forever...
+              li
+                p
+                  | Finish the styling of the meals section.  It will definitely be a lot of work
+                    because I want it to  be as visually appealing on the front end as it is complex
+                    on the back end.
+              li
+                p
+                  | Add ElasticSearch to the site so it has full text searching.  I may also
+                    implement site crawlability for search engines on select areas (probably
+                    the index and programming section).
+              li
+                p
+                  | Complete the User panel/account area with FB integration.
+              li
+                p
+                  | Complete the Admin panel with analytics and info.
+      hr
+      .spacer30
+      h3
+        a href="https://github.com/ericmwalsh/personal-site-auth" target="_blank"
+          %i.fa.fa-github.fa-1x.contact-github-icon
+          | Authentication Microservice
+      br
+      p
+        | The authentication microservice is a Rails-API (and Rails 4.2.5) server that uses
+          Redis as its default cache and PG for its database.  I am using a modified version
+          of Devise's Devise::SessionController in order to allow for my custom JSON style
+          login and logout from the front end app.  Any request made to a back end server
+          in the SOA architecture that includes an 'Auth-Token' in the header will have that
+          validation forwarded to the authentication service.  Based on the response from the
+          auth service the server will now be able to identify the requester and then scope
+          the information based on the requester's role (a user can be a 'guest', 'user', or
+          'admin').
+      .spacer10
+      .container
+        .col-xs-12.col-sm-12.col-md-4.col-lg-4
+          h4.goals-header >Development Goals
+        .col-xs-12.col-sm-12.col-md-8.col-lg-8
+          .goals-list
+            ul
+              li
+                p
+                  | Finish 'Auth-Token' verification method - returns failure (guest) or a success
+                    (user or admin) JSON that includes the user's ID.
+              li
+                p
+                  | Abstract user ownership/permissions checking into a gem for all back end servers
+                    written in Ruby/Rails.  The gem will include a helper for models that adds a user
+                    or owner ID field (that will be delegated to a separate JOIN table) as well as
+                    validation during creation to check for presence of the ID.  The gem will also
+                    include CanCanCan-like permissions helpers for guest/user/admin and AR scoping.
+              li
+                p
+                  | Add support for user creation and deletion (via JSON) methods.
+              li
+                p
+                  | This goal is more towards packaging the app as a reusable basis for a Rails
+                    authentication microservice.  The combination of this service plus the gem
+                    mentioned in goal two would make this a more than viable template to use for
+                    authentication in a microservice/SOA architecture.  This would also entail adding
+                    specs to test all of the custom and overridden controller methods.  Maybe...
+      hr
+      .spacer30

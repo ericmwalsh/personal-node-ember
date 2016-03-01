@@ -52,11 +52,28 @@
         bills and tuition!).  I kept up this pace for a couple months however I again
         made the decision to leave school this time to pursue a career in web development.
       br
-      p In December I was hired as a full-time Software Engineer at Spinlister in Santa Monica,
-        California. I am part of a small, tight-knight team of talented individuals and am fully
-        embracing the Silicon Beach culture.  During my time at Spinlister I've worked
-        on a multitude of different projects (creating our SEO Blog using Jekyll and Ruby,
-        upgrading Rails 3 to Rails 4, adding Redis for caching) and am now currently
-        focusing on splitting up our monolithic Rails 4 application into a microservice
-        architecture. Startup life is a tough, demanding rollercoaster but it’s exactly
-        where I want to be.
+      p In December 2014 I was hired as a full-time Software Engineer at Spinlister in Santa Monica,
+        California. I was part of a small, tight-knight team of talented individuals that fully
+        embraced the Silicon Beach culture.  During my time at Spinlister I worked on a
+        multitude of different projects (creating othe SEO Blog using Jekyll and Ruby,
+        upgrading Rails 3 to Rails 4, adding Redis for caching) and worked with every part
+        of the app.  My duties included adding full-stack changes (HAML/SCSS/Coffeescript)
+        including features like typeahead, the availability calendar, and instant booking.
+        I also spent time focusing on splitting up our monolithic Rails 4 application into
+        a microservice oriented architecture. After weighing out the benefits of the architecture
+        shift with that of decoupling the front end rendering from the Rails server (AKA
+        splitting off our web client into a separate Ember app) we decided to settle on
+        decoupling instead.
+      br
+      p After working at Spinlister for 14 months I decided that I wanted to work in a new
+        environment with more engineers (at Spinlister I was one of three on-site engineers;
+        we also had 2 remote contractors) and on a bigger and more complex project.  This was a
+        tough decision for me because I truly enjoy and believe in the Spinlister platform as well
+        as the awesome product team there (shoutout to Carter DeAngelis and Eric Baril).  However
+        I decided that in the end I have to focus on my goals and my path to becoming a better
+        coder and software engineer.  In February 2016 I said goodbye to the team at Spinlister
+        and began working at HYFN in Hermosa Beach.
+      br
+      p I am currently a Full Stack Software Engineer on the HYFN8 team.  I currently focus on
+        the Twitter platform though I hope to work with all of the platforms in the HYFN8 app in
+        the coming months.  I am excited for what's in store!
