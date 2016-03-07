@@ -4,7 +4,7 @@ import Devise from 'ember-simple-auth/authenticators/devise';
 const { RSVP, isEmpty, run, get } = Ember;
 
 export default Devise.extend({
-  resourceName: 'admin',
+  resourceName: 'user',
   serverTokenEndpoint: ENV["adminEndpoint"] + "/sign_in/",
 
   authenticate(identification, password) {
