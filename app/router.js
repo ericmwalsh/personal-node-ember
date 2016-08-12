@@ -27,6 +27,7 @@ Router.map(function() {
   });
   this.route('programming', function() {
     this.route('site-architecture');
+    this.route('biography');
   });
   this.route('writing', function() {
     

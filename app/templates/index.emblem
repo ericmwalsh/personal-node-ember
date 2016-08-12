@@ -3,77 +3,179 @@
     .col-xs-12.col-sm-12.col-md-12.col-lg-12
       .text-xs-center
         h1.home-header
-          | A Pursuit of 
-          em Happyness
+          | Eric Walsh
   .row
-    .col-xs-12.col-sm-12.col-md-4.col-lg-4
-      img.profile-image src="/assets/images/pages/home/walsh.jpg"
-    .col-xs-12.col-sm-12.col-md-8.col-lg-8
-      p My name is Eric Walsh and I am a 23 year old Web Developer from Orange
-        County, California. Computers have always been my thing. I began my
-        “coding career” as a child when I was around 12 or 13 years old, about
-        10 years ago. Ever the prodigious PC gamer, I became obsessed with the
-        idea of creating my own video game so I decided to begin programming with
-        a book called Game Programming for Teens. After that I continued through
-        4 years of Java in high school and wrapped up my technical education with
-        5 more years of programming (C++, SQL, Matlab, C) in college.
+    .col-xs-12.col-sm-12.col-md-6.col-lg-6
+      p I am a 24 year old Web Developer from Orange County.  I have been programming for
+        12 years and I started pursuing web development in 2010.  I began doing contract
+        freelance work in 2011 and began working professionally in 2013.  I do not have
+        a bachelor's degree but I do have a little over 3 years of professional experience
+        and a strong portfolio to showcase my work.  I let my code speak for itself.
       br
-      p From 2010-2012 I attended Georgia Institute of Technology (Georgia Tech)
-        as a Computer Engineer where I was introduced to the MATLAB and C programming
-        languages and also learned about hardware/circuits, digital signal processing,
-        and wireless networks. I left Georgia Tech before finishing my degree
-        (I felt that computer engineering was not my discipline of choice) and
-        moved back to California where I worked various odd jobs before deciding
-        to reinvest my time in programming. Shortly after, I created a couple
-        freelance web pages which successfully reinvigorated my desire to work with
-        computers: I decided to enroll at University of California Riverside in
-        Fall of 2013 as a Computational Mathematics major.
+      p
+        | I have quite a bit of code that I can share (on my Github portfolio) however
+          most of it is private.  Please 
+        a.bold= link-to "contact"
+          | contact me
+        |  for access.
       br
-      p While working as a college dropout turned freelance web developer was
-        going steady I made the decision to enter the professional realm in Summer
-        of 2013 as a Developer for Broadview Mortgage Corporation. I worked there for
-        a little over 1 year switching between part-time (tele-commuting and on-location)
-        and full-time while I continued my education at UCR full-time. At BMC I
-        spent most of my time developing in PHP/MsSQL on a Drupal 7 site. I was
-        tasked with minor changes and modifications at first but after a few weeks
-        I was handling everything from backend routing to front end Javascript changes.
       br
-      p I left BMC in June of 2014 to pursue a position at Americas Printer
-        (AmericasPrinter.com) as a full-time Ruby on Rails Developer. With over a year of
-        Rails experience (hobbyist and at BMC)and two years of MVC experience in PHP
-        (Symfony, CakePHP) I had no troubles adjusting to the work pace at my new company.
-        My daily work had me busy making changes to an internal CRM system built
-        on Rails 3 and MySQL.  I also helped work with the external customer facing
-        site which was written in Rails 2.
       br
-      p In October 2014 parted ways with Americas Printer due to time conflicts with
-        school.  For the next few months, between October and November of 2014, I pursued
-        school full-time while working part-time on freelance projects (had to pay the
-        bills and tuition!).  I kept up this pace for a couple months however I again
-        made the decision to leave school this time to pursue a career in web development.
+      b Skills
       br
-      p In December 2014 I was hired as a full-time Software Engineer at Spinlister in Santa Monica,
-        California. I was part of a small, tight-knight team of talented individuals that fully
-        embraced the Silicon Beach culture.  During my time at Spinlister I worked on a
-        multitude of different projects (creating othe SEO Blog using Jekyll and Ruby,
-        upgrading Rails 3 to Rails 4, adding Redis for caching) and worked with every part
-        of the app.  My duties included adding full-stack changes (HAML/SCSS/Coffeescript)
-        including features like typeahead, the availability calendar, and instant booking.
-        I also spent time focusing on splitting up our monolithic Rails 4 application into
-        a microservice oriented architecture. After weighing out the benefits of the architecture
-        shift with that of decoupling the front end rendering from the Rails server (AKA
-        splitting off our web client into a separate Ember app) we decided to settle on
-        decoupling instead.
       br
-      p After working at Spinlister for 14 months I decided that I wanted to work in a new
-        environment with more engineers (at Spinlister I was one of three on-site engineers;
-        we also had 2 remote contractors) and on a bigger and more complex project.  This was a
-        tough decision for me because I truly enjoy and believe in the Spinlister platform as well
-        as the awesome product team there (shoutout to Carter DeAngelis and Eric Baril).  However
-        I decided that in the end I have to focus on my goals and my path to becoming a better
-        coder and software engineer.  In February 2016 I said goodbye to the team at Spinlister
-        and began working at HYFN in Hermosa Beach.
+      p Frontend
       br
-      p I am currently a Full Stack Software Engineer on the HYFN8 team.  I currently focus on
-        the Twitter platform though I hope to work with all of the platforms in the HYFN8 app in
-        the coming months.  I am excited for what's in store!
+      ul
+        li
+          p Javascript (ES5/6) and Coffeescript
+        li
+          p Backbone.JS and EmberJS
+        li
+          p Libraries like jQuery, Bootstrap, Underscore, Moment.JS,
+            FullCalendar.JS, Pusher, ReactJS, Pickadate, Google Maps,
+            Google Autocomplete, ElasticSearch, AlgoliaSearch.
+        li
+          p CSS/SCSS/SASS
+        li
+          p HTML/Handlebars/EmblemJS/ERB/HAML
+      br
+      br
+      p Backend
+      br
+      ul
+        li
+          p Rails 3/4/5 (personal projects)
+        li
+          p Gems like Devise, Sorcery, Chronic, Sidekiq, Resque, IceCube, Koala,
+            OAuth, Wicked_PDF, CanCan, WillPaginate, Paranoia, Redis, Dalli,
+            Postmark, Grocer, Twilio, NewRelic, RSpec, FactoryGirl, VCR, Pry,
+            Capybara, Timecop.
+        li
+          p NodeJS (ES6, Express, Knex/BookshelfJS, Request, Redis, Bluebird)
+        li
+          p Search tools like ElasticSearch and AlgoliaSearch
+        li
+          p Caching tools like Redis and Memcached
+        li
+          p Serverless tools like AWS Lambda
+        li
+          p SOA/Microservices Architecture (experience with migrating and maintaining)
+        li
+          p Medium experience with tools like AWS API Gateway and Mashape's KONG
+        li
+          p Very experienced with SQL (PostgreSQL, MySQL, SQL Server)
+      br
+      br
+      p General
+      br
+      ul
+        li
+          p I am adept at learning new languages and love coding in my free time using
+            new technologies.
+        li
+          p Leadership - Professional experience managing teams of 5 or smaller
+        li
+          p AGILE/Scrum (and project management tools like JIRA and PivotalTracker)
+        li
+          p Experience working with in-house and remote teams.
+        li
+          p Experience working remotely.
+        li
+          p Currently I am working on a Rails 5/NodeJS SOA project using
+            KONG as an API Gateway/Proxy/ACL.  The code is all on Github and can be shared
+            upon request
+
+
+    .col-xs-12.col-sm-12.col-md-6.col-lg-6
+      b Portfolio Links
+      br
+      br
+      .col-xs-6.col-sm-6.col-md-6.col-lg-6
+        a.contact-github href="https://github.com/ericmwalsh/"
+          %i.fa.fa-github.fa-3x.contact-github-icon
+      .col-xs-6.col-sm-6.col-md-6.col-lg-6
+        a.contact-linkedin href="http://stackoverflow.com/users/2577822/eric-walsh"
+          %i.fa.fa-stack-overflow.fa-3x.contact-stack-overflow-icon
+      br
+      br
+      br
+      br
+      b Programming Education/Timeline
+      br
+      br
+      ul
+        li
+          p 2004 Begin learning coding (Visual Basic), I wanted to make video games.
+        li
+          p 2006 Began taking programming classes at Troy High School.  Studied boolean
+            algebra and learned basic Java programming using the BlueJ.
+        li
+          p 2007-2010 Joined programming/CS club.  Competed in coding competitions
+            and began learning C (less overhead and was faster to setup, better for
+            timed competitions).
+        li
+          p 2008 AP Computer Science A - 5
+        li
+          p 2009 AP Computer Science AB - 5
+        li
+          p 2010 Began learning web development.  Began with Javascript, HTML, and CSS.
+        li
+          p 2010 Began taking classes as a Computer Engineer at Georgia Tech.  My initial
+            courseload included courses with programming in MATLAB and C.
+        li
+          p 2011 Georgia Tech (Digital Design Laboratory) - used VHDL and ASM to create
+            a stereo system.
+        li
+          p 2011 Released my first freelance website (Wordpress with basic Javascript scripts)
+            for a World of Warcraft group:
+          a href="http://www.arenaglads.com/" http://www.arenaglads.com/ (no longer exists)
+        br
+        li
+          p 2012 Left Georgia Tech to go back to California.  Began working as a math tutor
+            while working on basic Wordpress sites as a freelance developer.  One of my projects
+            was to create a site for the tutoring business I worked for:
+          a href="http://www.prep4future.com/" http://www.prep4future.com/ (no longer my client)
+        br
+        li
+          p 2013 Began working at Broadview Mortgage Corporation as a Web Developer Intern in
+            the IT Department.  I was the only developer in the department and I worked with a remote
+            consulting firm (Project Ricochet) on a Drupal 6/Drupal 7 (PHP) site.  I continued
+            working there after the first summer as a remote developer while studying at UCR,
+            alternating between full and part time depending on my course load. During that time
+            I used SQL Server and MySQL, wrote scripts in VB6.0 for Excel macros and began my MVC
+            experience with Symfony. I also worked with developer interns in another department to
+            create small web apps using Rails and MEAN.
+          a href="https://www.broadviewmortgage.com/" https://www.broadviewmortgage.com/
+        br
+        li
+          p 2013 Begin studying at UCR as a Computational Mathematics major.  My courses focused on
+            advanced Mathematics (Linear Algebra, Game Theory, Combinatorics, Statistics) and
+            programming (algorithms, intro/advanced programming).  We used C++ in all of my courses.
+            I have some public repos on my GitHub from class assignments but they are nothing special.
+        li
+          p 2014 Began working at AmericasPrinter.com as a Ruby on Rails Developer after leaving BMC.
+            Learned Git (had been using SVN before) and worked with a RoR 2 (external) site and RoR 3
+            (internal CRM) site.  Full stack development, used popular gems like Devise and Chronic on
+            the backend and libraries like jQuery and FullCalendar.js on the frontend.
+          a href="https://www.americasprinter.com/" https://www.americasprinter.com/
+        br
+        li
+          p 2015 Began working at Spinlister as a Software Engineer.  Worked on a full stack Rails server
+            (backbone frontend) and built the API for the Android/iOS apps.  Worked with technologies
+            like Google Maps, OAuth2 (FB/Twitter), AlgoliaSearch, Redis, Docker, AWS Lambda, S3,
+            PostgreSQL, Jekyll, CircleCI.  Deployed on Heroku and AWS.  Experience with AWS technologies
+            like S3, EC2, SNS, and Lambda.  Helped manage remote developers (Brazil) while moving from a
+            monolith to SOA.  Began working on an EmberJS frontend (split off from the full stack Rails
+            server).
+          a href="https://www.spinlister.com/" https://www.spinlister.com/
+        br
+        li
+          p 2016 February - Began working at HYFN as a Full Stack Software Engineer on the HYFN8 team.  Rails SOA
+            deployed on Heroku and AWS.  Backbone on the frontend and heavy usage of Sidekiq and Pusher.
+          a href="https://hyfn.com/" https://hyfn.com/
+        br
+        li
+          p 2016 April - Promoted to Co-Lead Software Engineer for the Twitter team.  Added responsibilities
+            now include deployment and management/leading the team.
+

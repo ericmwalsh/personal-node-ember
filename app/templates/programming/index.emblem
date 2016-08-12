@@ -1,2 +1,7 @@
-p programming
-= link-to "programming.site-architecture" | site arch
+p Programming
+br
+|1. 
+= link-to "programming.site-architecture" | Site Architecture
+br
+|2. 
+= link-to "programming.biography" | Biography
